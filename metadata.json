@@ -1,0 +1,6 @@
+{
+  "name": "SOROK AI Core API & Enterprise Platform",
+  "description": "SOROK AI Core Enterprise API engine with JWT-protected authentication, data management, live Swagger API documentation, audit logging, and Google GenAI startup integration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

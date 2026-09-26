@@ -1,0 +1,33 @@
+{
+  "name": "sorok-ai-core",
+  "version": "1.0.0",
+  "description": "SOROK AI Core API Engine - Identity, Data Management, Logging, Swagger & Google GenAI",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "sorok-ai",
+    "express",
+    "jwt",
+    "swagger",
+    "google-genai",
+    "mongoose"
+  ],
+  "author": "SOROK System",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@google/genai": "^2.4.0",
+    "dotenv": "^17.2.3",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.5",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
